@@ -667,7 +667,7 @@ input::-ms-input-placeholder {
 }
 /*home section*/
 .home{
-    background: url(../images/homebg.jpg) no-repeat center center;
+    background: url(../images/background.jpg) no-repeat center center;
     background-size: cover;
 }
 .home_skew_border{
@@ -946,7 +946,7 @@ button.btn-md:hover {
     padding: 20px;
     opacity: 0;
     transition: 0.6s;
-    padding-top:35%;
+    /* padding-top:35%; */
     z-index: 99;
 }
 .g_overlay_1{
@@ -1056,10 +1056,7 @@ button.btn-md:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     -ms-transition: all 0.35s ease-in-out;
-}
-.single_pricing:hover{
     box-shadow: 0px 1px 10px 1px #ccc;
-
 }
 .pricing_business .pricing_head{
     background:#e74c3c;
